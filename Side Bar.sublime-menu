@@ -1,0 +1,5 @@
+[
+	{ "caption": "Copy File", "command": "files_copy", "args": { "dirs": [], "files" : []} },
+	{ "caption": "Cut File", "command": "files_cut", "args": { "dirs": [], "files" : []} },
+	{ "caption": "Paste in folder", "command": "files_paste", "args": { "dirs": [], "files" : []} }
+]
