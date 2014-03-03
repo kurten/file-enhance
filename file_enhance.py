@@ -84,7 +84,7 @@ def move_to(dst):
     if FilesPasteCommand.g_dirs != None:
         for dir in FilesPasteCommand.g_dirs:
             d, op = checkAndShow(dir, dst)
-            if op == 0:
+            if op == 0 and unicode(dst).startswith(dir) == False:
                 move(dir, dst)
             elif op == 1:
                 copy_recursive(dir, d, True)
