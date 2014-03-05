@@ -22,3 +22,9 @@ Updating
 1. ``cd Sublime Text 2/Packages/file-enhance``
 
 2. ``git pull``
+
+Notice
+========
+
+I found [SideBar Enhancements](https://github.com/titoBouzout/SideBarEnhancements). Someone has developed plugin like this.
+So I will stop develop.
